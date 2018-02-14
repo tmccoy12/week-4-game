@@ -34,22 +34,30 @@ body{
 }
 
 #chosen-character {
-	height: 150px;
+	
+	margin: 0px 2px 0px 2px;
+	
+	
 }
 
 #chosen-character h2 {
 	font-size: 2em;
-    color: white;
+	color: white;
+	
 }
 
 .chosen-character {
 	border-color: yellow;
 	background-color: gray;
+	margin: 30px;
 }
 
 #enemies-available h2 {
 	font-size: 2em;
 	color: white;
+	margin: 0px 2px 0px 2px;
+	padding: 20px;
+	
 }
 
 .enemy-character {
@@ -61,7 +69,7 @@ body{
 #fight-section h2 {
 	font-size: 2em;
 	color: white;
-	margin: 40px;
+	
 }
 
 #defender-section {
