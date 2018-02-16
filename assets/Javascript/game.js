@@ -240,8 +240,7 @@ $(document).ready(function () {
   $("#attack").on("click", function () {
     console.log("Attack selected");
 
-    console.log("character = " + JSON.stringify(character));
-    console.log("defender = " + JSON.stringify(defender));
+    
 
     // User is ready to attack the defender
     if (characterSelected && defenderSelected && !gameOver) {
@@ -285,9 +284,6 @@ $(document).ready(function () {
     } else if (!defenderSelected && !gameOver) {
       $("#game-message").html("<p>You must choose an enemy to fight.</p>");
     }
-
-    console.log("character = " + JSON.stringify(character));
-    console.log("defender = " + JSON.stringify(defender));
   });
 
   $("#restart").on("click", function () {
